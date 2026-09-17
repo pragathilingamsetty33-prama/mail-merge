@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+    <meta charset=\"UTF-8\">
+    <title>Certificate of Achievement - {{name}}</title>
+    <style>
+        @page {
+            size: A4 landscape;
+            margin: 0;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background-color: #f7f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .certificate-container {
+            width: 297mm;
+            height: 210mm;
+            box-sizing: border-box;
+            padding: 20mm;
+            background: #ffffff;
+            position: relative;
+            border: 12px solid #0B192C;
+            outline: 3px solid #C59B27;
+            outline-offset: -8px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        .header-logo {
+            font-size: 14px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #64748B;
+            margin-bottom: 12px;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-weight: 600;
+        }
+        .main-title {
+            font-size: 38px;
+            font-weight: 700;
+            color: #0B192C;
+            letter-spacing: 2px;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+        }
+        .subtitle {
+            font-size: 15px;
+            color: #C59B27;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+        .recipient-name {
+            font-size: 34px;
+            font-weight: 700;
+            color: #1E293B;
+            border-bottom: 2px solid #C59B27;
+            display: inline-block;
+            padding: 0 40px 8px 40px;
+            margin-bottom: 20px;
+            max-width: 80%;
+            word-wrap: break-word;
+        }
+        .award-reason {
+            font-size: 15px;
+            color: #475569;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        .course-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #0B192C;
+            margin-bottom: 30px;
+        }
+        .footer-grid {
+            position: absolute;
+            bottom: 25mm;
+            left: 25mm;
+            right: 25mm;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        .signature-block {
+            text-align: center;
+            width: 200px;
+        }
+        .signature-line {
+            border-top: 1px solid #1E293B;
+            margin-top: 40px;
+            padding-top: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #1E293B;
+            text-transform: uppercase;
+        }
+        .signature-title {
+            font-size: 11px;
+            color: #64748B;
+        }
+        .seal-badge {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px double #C59B27;
+            background: #FCFDFD;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 9px;
+            color: #C59B27;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .meta-info {
+            position: absolute;
+            bottom: 8mm;
+            left: 20mm;
+            right: 20mm;
+            font-size: 10px;
+            color: #94A3B8;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class=\"certificate-container\">
+        <div class=\"header-logo\">International Institute of Technology & Data Sciences</div>
+        <h1 class=\"main-title\">Certificate of Achievement</h1>
+        <div class=\"subtitle\">This is proudly presented to</div>
+        
+        <div class=\"recipient-name\">{{name}}</div>
+        
+        <div class=\"award-reason\">for successfully fulfilling all rigorous academic requirements and demonstrating mastery in</div>
+        <div class=\"course-title\">{{course}}</div>
+
+        <div class=\"footer-grid\">
+            <div class=\"signature-block\">
+                <div class=\"signature-line\">Dr. Aris Thorne</div>
+                <div class=\"signature-title\">Chief Academic Officer</div>
+            </div>
+
+            <div class=\"seal-badge\">
+                <span>Official</span>
+                <span style=\"font-size: 16px; margin: 2px 0;\">&#9733;</span>
+                <span>Verified</span>
+            </div>
+
+            <div class=\"signature-block\">
+                <div class=\"signature-line\">{{instructor}}</div>
+                <div class=\"signature-title\">Lead Instructor & Director</div>
+            </div>
+        </div>
+
+        <div class=\"meta-info\">
+            <span>Issued Date: {{date}}</span>
+            <span>Certificate ID: {{cert_id}}</span>
+        </div>
+    </div>
+</body>
+</html>

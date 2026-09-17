@@ -1,0 +1,8 @@
+2026-09-17 16:42:01,428 [WARNING] [mail_merge.py:133] Config 'templates/template_config.json' not found! Using standard defaults.
+2026-09-17 16:42:01,429 [INFO] [mail_merge.py:514] Starting Certificate Batch Pipeline (Dry Run: False)
+2026-09-17 16:42:01,429 [INFO] [mail_merge.py:515] Export Format: BOTH (PNG DPI: 300)
+2026-09-17 16:42:01,429 [INFO] [mail_merge.py:516] Output Directory: C:\Users\Hp\Desktop\Agent1\__pycache__\output_certificates
+2026-09-17 16:42:05,201 [WARNING] [mail_merge.py:133] Config 'templates/template_config.json' not found! Using standard defaults.
+2026-09-17 16:42:05,202 [INFO] [mail_merge.py:514] Starting Certificate Batch Pipeline (Dry Run: False)
+2026-09-17 16:42:05,212 [INFO] [mail_merge.py:515] Export Format: BOTH (PNG DPI: 300)
+2026-09-17 16:42:05,212 [INFO] [mail_merge.py:516] Output Directory: C:\Users\Hp\Desktop\Agent1\__pycache__\output_certificates

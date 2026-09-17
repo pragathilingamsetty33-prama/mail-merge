@@ -1,0 +1,241 @@
+2026-09-09 14:46:42,722 [INFO] [mail_merge.py:512] Starting Certificate Batch Pipeline (Dry Run: True)
+2026-09-09 14:46:42,722 [INFO] [mail_merge.py:513] Export Format: BOTH (PNG DPI: 300)
+2026-09-09 14:46:42,722 [INFO] [mail_merge.py:514] Output Directory: C:\Users\Hp\Desktop\Agent1\output_certificates
+2026-09-09 14:46:42,731 [INFO] [mail_merge.py:441] Loaded 8 records from 'recipients.csv'.
+2026-09-09 14:46:42,732 [INFO] [mail_merge.py:531] [DRY RUN VALID] Row 1: 'Alice Morgan' -> 'Advanced Data Engineering & Pipeline Design'
+2026-09-09 14:46:42,733 [INFO] [mail_merge.py:531] [DRY RUN VALID] Row 2: 'Bartholomew Montgomery-Hetherington III' -> 'Executive Machine Learning & AI Strategy'
+2026-09-09 14:46:42,742 [INFO] [mail_merge.py:531] [DRY RUN VALID] Row 3: 'Dr. Sofia Elena Rodriguez-Hernandez' -> 'Cloud Architecture & Security Governance'
+2026-09-09 14:46:42,742 [INFO] [mail_merge.py:531] [DRY RUN VALID] Row 4: 'Chen Wei' -> 'Full-Stack Automation with Python'
+2026-09-09 14:46:42,742 [INFO] [mail_merge.py:531] [DRY RUN VALID] Row 5: 'Marcus Vance' -> 'DevOps & Continuous Integration Masterclass'
+2026-09-09 14:46:42,742 [INFO] [mail_merge.py:531] [DRY RUN VALID] Row 6: 'Aisha Al-Mansoor' -> 'Cybersecurity Defense & Incident Response'
+2026-09-09 14:46:42,743 [WARNING] [mail_merge.py:526] [SKIPPED] Row 7: Missing required field 'Course Name' / 'Course'.
+2026-09-09 14:46:42,743 [WARNING] [mail_merge.py:526] [SKIPPED] Row 8: Missing required field 'Full Name' / 'Name'.
+2026-09-09 14:46:42,743 [INFO] [mail_merge.py:597] =================================================================
+2026-09-09 14:46:42,744 [INFO] [mail_merge.py:598] BATCH GENERATION SUMMARY
+2026-09-09 14:46:42,744 [INFO] [mail_merge.py:599]   Total Ingested Records : 8
+2026-09-09 14:46:42,744 [INFO] [mail_merge.py:600]   Successfully Generated  : 6
+2026-09-09 14:46:42,744 [INFO] [mail_merge.py:601]   Skipped (Invalid/Blank): 2
+2026-09-09 14:46:42,744 [INFO] [mail_merge.py:602]   Failed (Exceptions)    : 0
+2026-09-09 14:46:42,744 [INFO] [mail_merge.py:603]   Elapsed Processing Time : 0.02s
+2026-09-09 14:46:42,744 [INFO] [mail_merge.py:604]   Manifest Output Path   : output_certificates\manifest.json
+2026-09-09 14:46:42,744 [INFO] [mail_merge.py:605] =================================================================
+2026-09-09 14:46:50,545 [DEBUG] [mail_merge.py:82] Registered 6 TrueType fonts.
+2026-09-09 14:46:50,548 [INFO] [mail_merge.py:512] Starting Certificate Batch Pipeline (Dry Run: False)
+2026-09-09 14:46:50,548 [INFO] [mail_merge.py:513] Export Format: BOTH (PNG DPI: 300)
+2026-09-09 14:46:50,548 [INFO] [mail_merge.py:514] Output Directory: C:\Users\Hp\Desktop\Agent1\output_certificates
+2026-09-09 14:46:50,551 [INFO] [mail_merge.py:441] Loaded 8 records from 'recipients.csv'.
+2026-09-09 14:46:50,772 [INFO] [mail_merge.py:565] [SUCCESS] Row 1: Alice Morgan -> Certificate_Alice_Morgan_CERT-2026-001 (PDF: 129 KB, PNG: 213 KB)
+2026-09-09 14:46:50,997 [INFO] [mail_merge.py:565] [SUCCESS] Row 2: Bartholomew Montgomery-Hetherington III -> Certificate_Bartholomew_Montgomery-Hetherington_III_CERT-2026-002 (PDF: 129 KB, PNG: 221 KB)
+2026-09-09 14:46:51,214 [INFO] [mail_merge.py:565] [SUCCESS] Row 3: Dr. Sofia Elena Rodriguez-Hernandez -> Certificate_Dr._Sofia_Elena_Rodriguez-Hernandez_CERT-2026-003 (PDF: 129 KB, PNG: 226 KB)
+2026-09-09 14:46:51,426 [INFO] [mail_merge.py:565] [SUCCESS] Row 4: Chen Wei -> Certificate_Chen_Wei_CERT-2026-004 (PDF: 129 KB, PNG: 202 KB)
+2026-09-09 14:46:51,624 [INFO] [mail_merge.py:565] [SUCCESS] Row 5: Marcus Vance -> Certificate_Marcus_Vance_CERT-2026-005 (PDF: 129 KB, PNG: 214 KB)
+2026-09-09 14:46:51,826 [INFO] [mail_merge.py:565] [SUCCESS] Row 6: Aisha Al-Mansoor -> Certificate_Aisha_Al-Mansoor_CERT-2026-006 (PDF: 129 KB, PNG: 213 KB)
+2026-09-09 14:46:51,826 [WARNING] [mail_merge.py:526] [SKIPPED] Row 7: Missing required field 'Course Name' / 'Course'.
+2026-09-09 14:46:51,826 [WARNING] [mail_merge.py:526] [SKIPPED] Row 8: Missing required field 'Full Name' / 'Name'.
+2026-09-09 14:46:51,827 [INFO] [mail_merge.py:597] =================================================================
+2026-09-09 14:46:51,827 [INFO] [mail_merge.py:598] BATCH GENERATION SUMMARY
+2026-09-09 14:46:51,827 [INFO] [mail_merge.py:599]   Total Ingested Records : 8
+2026-09-09 14:46:51,827 [INFO] [mail_merge.py:600]   Successfully Generated  : 6
+2026-09-09 14:46:51,827 [INFO] [mail_merge.py:601]   Skipped (Invalid/Blank): 2
+2026-09-09 14:46:51,827 [INFO] [mail_merge.py:602]   Failed (Exceptions)    : 0
+2026-09-09 14:46:51,827 [INFO] [mail_merge.py:603]   Elapsed Processing Time : 1.28s
+2026-09-09 14:46:51,828 [INFO] [mail_merge.py:604]   Manifest Output Path   : output_certificates\manifest.json
+2026-09-09 14:46:51,828 [INFO] [mail_merge.py:605] =================================================================
+2026-09-09 14:47:01,568 [INFO] [mail_merge.py:512] Starting Certificate Batch Pipeline (Dry Run: False)
+2026-09-09 14:47:01,569 [INFO] [mail_merge.py:513] Export Format: BOTH (PNG DPI: 300)
+2026-09-09 14:47:01,569 [INFO] [mail_merge.py:514] Output Directory: C:\Users\Hp\Desktop\Agent1\output_excel_test
+2026-09-09 14:47:01,788 [INFO] [mail_merge.py:441] Loaded 8 records from 'recipients.xlsx'.
+2026-09-09 14:47:01,991 [INFO] [mail_merge.py:565] [SUCCESS] Row 1: Alice Morgan -> Certificate_Alice_Morgan_CERT-2026-001 (PDF: 129 KB, PNG: 213 KB)
+2026-09-09 14:47:02,192 [INFO] [mail_merge.py:565] [SUCCESS] Row 2: Bartholomew Montgomery-Hetherington III -> Certificate_Bartholomew_Montgomery-Hetherington_III_CERT-2026-002 (PDF: 129 KB, PNG: 221 KB)
+2026-09-09 14:47:02,405 [INFO] [mail_merge.py:565] [SUCCESS] Row 3: Dr. Sofia Elena Rodriguez-Hernandez -> Certificate_Dr._Sofia_Elena_Rodriguez-Hernandez_CERT-2026-003 (PDF: 129 KB, PNG: 226 KB)
+2026-09-09 14:47:02,595 [INFO] [mail_merge.py:565] [SUCCESS] Row 4: Chen Wei -> Certificate_Chen_Wei_CERT-2026-004 (PDF: 129 KB, PNG: 202 KB)
+2026-09-09 14:47:02,785 [INFO] [mail_merge.py:565] [SUCCESS] Row 5: Marcus Vance -> Certificate_Marcus_Vance_CERT-2026-005 (PDF: 129 KB, PNG: 214 KB)
+2026-09-09 14:47:02,981 [INFO] [mail_merge.py:565] [SUCCESS] Row 6: Aisha Al-Mansoor -> Certificate_Aisha_Al-Mansoor_CERT-2026-006 (PDF: 129 KB, PNG: 213 KB)
+2026-09-09 14:47:02,981 [WARNING] [mail_merge.py:526] [SKIPPED] Row 7: Missing required field 'Course Name' / 'Course'.
+2026-09-09 14:47:02,981 [WARNING] [mail_merge.py:526] [SKIPPED] Row 8: Missing required field 'Full Name' / 'Name'.
+2026-09-09 14:47:02,982 [INFO] [mail_merge.py:597] =================================================================
+2026-09-09 14:47:02,982 [INFO] [mail_merge.py:598] BATCH GENERATION SUMMARY
+2026-09-09 14:47:02,982 [INFO] [mail_merge.py:599]   Total Ingested Records : 8
+2026-09-09 14:47:02,982 [INFO] [mail_merge.py:600]   Successfully Generated  : 6
+2026-09-09 14:47:02,982 [INFO] [mail_merge.py:601]   Skipped (Invalid/Blank): 2
+2026-09-09 14:47:02,982 [INFO] [mail_merge.py:602]   Failed (Exceptions)    : 0
+2026-09-09 14:47:02,982 [INFO] [mail_merge.py:603]   Elapsed Processing Time : 1.41s
+2026-09-09 14:47:02,982 [INFO] [mail_merge.py:604]   Manifest Output Path   : output_excel_test\manifest.json
+2026-09-09 14:47:02,983 [INFO] [mail_merge.py:605] =================================================================
+2026-09-09 14:49:56,070 [INFO] [mail_merge.py:514] Starting Certificate Batch Pipeline (Dry Run: False)
+2026-09-09 14:49:56,070 [INFO] [mail_merge.py:515] Export Format: BOTH (PNG DPI: 300)
+2026-09-09 14:49:56,070 [INFO] [mail_merge.py:516] Output Directory: C:\Users\Hp\Desktop\Agent1\output_certificates
+2026-09-09 14:49:56,072 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-09 14:49:56,277 [INFO] [mail_merge.py:567] [SUCCESS] Row 1: Alice Morgan -> Certificate_Alice_Morgan_CERT-2026-001 (PDF: 129 KB, PNG: 213 KB)
+2026-09-09 14:49:56,471 [INFO] [mail_merge.py:567] [SUCCESS] Row 2: Bartholomew Montgomery-Hetherington III -> Certificate_Bartholomew_Montgomery-Hetherington_III_CERT-2026-002 (PDF: 129 KB, PNG: 221 KB)
+2026-09-09 14:49:56,704 [INFO] [mail_merge.py:567] [SUCCESS] Row 3: Dr. Sofia Elena Rodriguez-Hernandez -> Certificate_Dr._Sofia_Elena_Rodriguez-Hernandez_CERT-2026-003 (PDF: 129 KB, PNG: 226 KB)
+2026-09-09 14:49:56,926 [INFO] [mail_merge.py:567] [SUCCESS] Row 4: Chen Wei -> Certificate_Chen_Wei_CERT-2026-004 (PDF: 129 KB, PNG: 203 KB)
+2026-09-09 14:49:57,125 [INFO] [mail_merge.py:567] [SUCCESS] Row 5: Marcus Vance -> Certificate_Marcus_Vance_CERT-2026-005 (PDF: 129 KB, PNG: 213 KB)
+2026-09-09 14:49:57,332 [INFO] [mail_merge.py:567] [SUCCESS] Row 6: Aisha Al-Mansoor -> Certificate_Aisha_Al-Mansoor_CERT-2026-006 (PDF: 129 KB, PNG: 214 KB)
+2026-09-09 14:49:57,332 [WARNING] [mail_merge.py:528] [SKIPPED] Row 7: Missing required field 'Course Name' / 'Course'.
+2026-09-09 14:49:57,332 [WARNING] [mail_merge.py:528] [SKIPPED] Row 8: Missing required field 'Full Name' / 'Name'.
+2026-09-09 14:49:57,333 [INFO] [mail_merge.py:599] =================================================================
+2026-09-09 14:49:57,333 [INFO] [mail_merge.py:600] BATCH GENERATION SUMMARY
+2026-09-09 14:49:57,333 [INFO] [mail_merge.py:601]   Total Ingested Records : 8
+2026-09-09 14:49:57,333 [INFO] [mail_merge.py:602]   Successfully Generated  : 6
+2026-09-09 14:49:57,333 [INFO] [mail_merge.py:603]   Skipped (Invalid/Blank): 2
+2026-09-09 14:49:57,333 [INFO] [mail_merge.py:604]   Failed (Exceptions)    : 0
+2026-09-09 14:49:57,333 [INFO] [mail_merge.py:605]   Elapsed Processing Time : 1.26s
+2026-09-09 14:49:57,333 [INFO] [mail_merge.py:606]   Manifest Output Path   : output_certificates\manifest.json
+2026-09-09 14:49:57,333 [INFO] [mail_merge.py:607] =================================================================
+2026-09-16 10:33:21,327 [INFO] [mail_merge.py:514] Starting Certificate Batch Pipeline (Dry Run: True)
+2026-09-16 10:33:21,328 [INFO] [mail_merge.py:515] Export Format: BOTH (PNG DPI: 300)
+2026-09-16 10:33:21,328 [INFO] [mail_merge.py:516] Output Directory: C:\Users\Hp\Desktop\Agent1\output_certificates
+2026-09-16 10:33:21,339 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 10:33:21,340 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 1: 'Alice Morgan' -> 'Advanced Data Engineering & Pipeline Design'
+2026-09-16 10:33:21,340 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 2: 'Bartholomew Montgomery-Hetherington III' -> 'Executive Machine Learning & AI Strategy'
+2026-09-16 10:33:21,340 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 3: 'Dr. Sofia Elena Rodriguez-Hernandez' -> 'Cloud Architecture & Security Governance'
+2026-09-16 10:33:21,340 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 4: 'Chen Wei' -> 'Full-Stack Automation with Python'
+2026-09-16 10:33:21,340 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 5: 'Marcus Vance' -> 'DevOps & Continuous Integration Masterclass'
+2026-09-16 10:33:21,340 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 6: 'Aisha Al-Mansoor' -> 'Cybersecurity Defense & Incident Response'
+2026-09-16 10:33:21,341 [WARNING] [mail_merge.py:528] [SKIPPED] Row 7: Missing required field 'Course Name' / 'Course'.
+2026-09-16 10:33:21,341 [WARNING] [mail_merge.py:528] [SKIPPED] Row 8: Missing required field 'Full Name' / 'Name'.
+2026-09-16 10:33:21,342 [INFO] [mail_merge.py:599] =================================================================
+2026-09-16 10:33:21,343 [INFO] [mail_merge.py:600] BATCH GENERATION SUMMARY
+2026-09-16 10:33:21,343 [INFO] [mail_merge.py:601]   Total Ingested Records : 8
+2026-09-16 10:33:21,344 [INFO] [mail_merge.py:602]   Successfully Generated  : 6
+2026-09-16 10:33:21,344 [INFO] [mail_merge.py:603]   Skipped (Invalid/Blank): 2
+2026-09-16 10:33:21,344 [INFO] [mail_merge.py:604]   Failed (Exceptions)    : 0
+2026-09-16 10:33:21,345 [INFO] [mail_merge.py:605]   Elapsed Processing Time : 0.01s
+2026-09-16 10:33:21,345 [INFO] [mail_merge.py:606]   Manifest Output Path   : output_certificates\manifest.json
+2026-09-16 10:33:21,345 [INFO] [mail_merge.py:607] =================================================================
+2026-09-16 10:40:03,242 [INFO] [mail_merge.py:514] Starting Certificate Batch Pipeline (Dry Run: False)
+2026-09-16 10:40:03,243 [INFO] [mail_merge.py:515] Export Format: BOTH (PNG DPI: 300)
+2026-09-16 10:40:03,244 [INFO] [mail_merge.py:516] Output Directory: C:\Users\Hp\Desktop\Agent1\output_certificates
+2026-09-16 10:40:03,251 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 10:40:03,492 [INFO] [mail_merge.py:567] [SUCCESS] Row 1: Alice Morgan -> Certificate_Alice_Morgan_CERT-2026-001 (PDF: 129 KB, PNG: 213 KB)
+2026-09-16 10:40:03,744 [INFO] [mail_merge.py:567] [SUCCESS] Row 2: Bartholomew Montgomery-Hetherington III -> Certificate_Bartholomew_Montgomery-Hetherington_III_CERT-2026-002 (PDF: 129 KB, PNG: 221 KB)
+2026-09-16 10:40:04,047 [INFO] [mail_merge.py:567] [SUCCESS] Row 3: Dr. Sofia Elena Rodriguez-Hernandez -> Certificate_Dr._Sofia_Elena_Rodriguez-Hernandez_CERT-2026-003 (PDF: 129 KB, PNG: 226 KB)
+2026-09-16 10:40:04,290 [INFO] [mail_merge.py:567] [SUCCESS] Row 4: Chen Wei -> Certificate_Chen_Wei_CERT-2026-004 (PDF: 129 KB, PNG: 203 KB)
+2026-09-16 10:40:04,563 [INFO] [mail_merge.py:567] [SUCCESS] Row 5: Marcus Vance -> Certificate_Marcus_Vance_CERT-2026-005 (PDF: 129 KB, PNG: 213 KB)
+2026-09-16 10:40:04,875 [INFO] [mail_merge.py:567] [SUCCESS] Row 6: Aisha Al-Mansoor -> Certificate_Aisha_Al-Mansoor_CERT-2026-006 (PDF: 129 KB, PNG: 214 KB)
+2026-09-16 10:40:04,876 [WARNING] [mail_merge.py:528] [SKIPPED] Row 7: Missing required field 'Course Name' / 'Course'.
+2026-09-16 10:40:04,876 [WARNING] [mail_merge.py:528] [SKIPPED] Row 8: Missing required field 'Full Name' / 'Name'.
+2026-09-16 10:40:04,878 [INFO] [mail_merge.py:599] =================================================================
+2026-09-16 10:40:04,878 [INFO] [mail_merge.py:600] BATCH GENERATION SUMMARY
+2026-09-16 10:40:04,879 [INFO] [mail_merge.py:601]   Total Ingested Records : 8
+2026-09-16 10:40:04,879 [INFO] [mail_merge.py:602]   Successfully Generated  : 6
+2026-09-16 10:40:04,879 [INFO] [mail_merge.py:603]   Skipped (Invalid/Blank): 2
+2026-09-16 10:40:04,879 [INFO] [mail_merge.py:604]   Failed (Exceptions)    : 0
+2026-09-16 10:40:04,879 [INFO] [mail_merge.py:605]   Elapsed Processing Time : 1.63s
+2026-09-16 10:40:04,879 [INFO] [mail_merge.py:606]   Manifest Output Path   : output_certificates\manifest.json
+2026-09-16 10:40:04,879 [INFO] [mail_merge.py:607] =================================================================
+2026-09-16 10:40:27,688 [INFO] [mail_merge.py:514] Starting Certificate Batch Pipeline (Dry Run: False)
+2026-09-16 10:40:27,689 [INFO] [mail_merge.py:515] Export Format: BOTH (PNG DPI: 300)
+2026-09-16 10:40:27,689 [INFO] [mail_merge.py:516] Output Directory: C:\Users\Hp\Desktop\Agent1\output_certificates
+2026-09-16 10:40:27,693 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 10:40:27,942 [INFO] [mail_merge.py:567] [SUCCESS] Row 1: Alice Morgan -> Certificate_Alice_Morgan_CERT-2026-001 (PDF: 129 KB, PNG: 213 KB)
+2026-09-16 10:40:28,164 [INFO] [mail_merge.py:567] [SUCCESS] Row 2: Bartholomew Montgomery-Hetherington III -> Certificate_Bartholomew_Montgomery-Hetherington_III_CERT-2026-002 (PDF: 129 KB, PNG: 221 KB)
+2026-09-16 10:40:28,389 [INFO] [mail_merge.py:567] [SUCCESS] Row 3: Dr. Sofia Elena Rodriguez-Hernandez -> Certificate_Dr._Sofia_Elena_Rodriguez-Hernandez_CERT-2026-003 (PDF: 129 KB, PNG: 226 KB)
+2026-09-16 10:40:28,636 [INFO] [mail_merge.py:567] [SUCCESS] Row 4: Chen Wei -> Certificate_Chen_Wei_CERT-2026-004 (PDF: 129 KB, PNG: 203 KB)
+2026-09-16 10:40:28,888 [INFO] [mail_merge.py:567] [SUCCESS] Row 5: Marcus Vance -> Certificate_Marcus_Vance_CERT-2026-005 (PDF: 129 KB, PNG: 213 KB)
+2026-09-16 10:40:29,147 [INFO] [mail_merge.py:567] [SUCCESS] Row 6: Aisha Al-Mansoor -> Certificate_Aisha_Al-Mansoor_CERT-2026-006 (PDF: 129 KB, PNG: 214 KB)
+2026-09-16 10:40:29,148 [WARNING] [mail_merge.py:528] [SKIPPED] Row 7: Missing required field 'Course Name' / 'Course'.
+2026-09-16 10:40:29,148 [WARNING] [mail_merge.py:528] [SKIPPED] Row 8: Missing required field 'Full Name' / 'Name'.
+2026-09-16 10:40:29,150 [INFO] [mail_merge.py:599] =================================================================
+2026-09-16 10:40:29,150 [INFO] [mail_merge.py:600] BATCH GENERATION SUMMARY
+2026-09-16 10:40:29,151 [INFO] [mail_merge.py:601]   Total Ingested Records : 8
+2026-09-16 10:40:29,151 [INFO] [mail_merge.py:602]   Successfully Generated  : 6
+2026-09-16 10:40:29,151 [INFO] [mail_merge.py:603]   Skipped (Invalid/Blank): 2
+2026-09-16 10:40:29,151 [INFO] [mail_merge.py:604]   Failed (Exceptions)    : 0
+2026-09-16 10:40:29,152 [INFO] [mail_merge.py:605]   Elapsed Processing Time : 1.46s
+2026-09-16 10:40:29,152 [INFO] [mail_merge.py:606]   Manifest Output Path   : output_certificates\manifest.json
+2026-09-16 10:40:29,152 [INFO] [mail_merge.py:607] =================================================================
+2026-09-16 10:44:30,621 [INFO] [mail_merge.py:514] Starting Certificate Batch Pipeline (Dry Run: True)
+2026-09-16 10:44:30,622 [INFO] [mail_merge.py:515] Export Format: BOTH (PNG DPI: 300)
+2026-09-16 10:44:30,622 [INFO] [mail_merge.py:516] Output Directory: C:\Users\Hp\Desktop\Agent1\output_certificates
+2026-09-16 10:44:30,625 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 10:44:30,628 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 1: 'Alice Morgan' -> 'Advanced Data Engineering & Pipeline Design'
+2026-09-16 10:44:30,628 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 2: 'Bartholomew Montgomery-Hetherington III' -> 'Executive Machine Learning & AI Strategy'
+2026-09-16 10:44:30,628 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 3: 'Dr. Sofia Elena Rodriguez-Hernandez' -> 'Cloud Architecture & Security Governance'
+2026-09-16 10:44:30,628 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 4: 'Chen Wei' -> 'Full-Stack Automation with Python'
+2026-09-16 10:44:30,629 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 5: 'Marcus Vance' -> 'DevOps & Continuous Integration Masterclass'
+2026-09-16 10:44:30,629 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 6: 'Aisha Al-Mansoor' -> 'Cybersecurity Defense & Incident Response'
+2026-09-16 10:44:30,629 [WARNING] [mail_merge.py:528] [SKIPPED] Row 7: Missing required field 'Course Name' / 'Course'.
+2026-09-16 10:44:30,629 [WARNING] [mail_merge.py:528] [SKIPPED] Row 8: Missing required field 'Full Name' / 'Name'.
+2026-09-16 10:44:30,630 [INFO] [mail_merge.py:599] =================================================================
+2026-09-16 10:44:30,630 [INFO] [mail_merge.py:600] BATCH GENERATION SUMMARY
+2026-09-16 10:44:30,630 [INFO] [mail_merge.py:601]   Total Ingested Records : 8
+2026-09-16 10:44:30,630 [INFO] [mail_merge.py:602]   Successfully Generated  : 6
+2026-09-16 10:44:30,630 [INFO] [mail_merge.py:603]   Skipped (Invalid/Blank): 2
+2026-09-16 10:44:30,630 [INFO] [mail_merge.py:604]   Failed (Exceptions)    : 0
+2026-09-16 10:44:30,631 [INFO] [mail_merge.py:605]   Elapsed Processing Time : 0.01s
+2026-09-16 10:44:30,631 [INFO] [mail_merge.py:606]   Manifest Output Path   : output_certificates\manifest.json
+2026-09-16 10:44:30,631 [INFO] [mail_merge.py:607] =================================================================
+2026-09-16 10:44:53,763 [INFO] [mail_merge.py:514] Starting Certificate Batch Pipeline (Dry Run: False)
+2026-09-16 10:44:53,764 [INFO] [mail_merge.py:515] Export Format: BOTH (PNG DPI: 300)
+2026-09-16 10:44:53,764 [INFO] [mail_merge.py:516] Output Directory: C:\Users\Hp\Desktop\Agent1\output_certificates
+2026-09-16 10:44:53,767 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 10:44:54,024 [INFO] [mail_merge.py:567] [SUCCESS] Row 1: Alice Morgan -> Certificate_Alice_Morgan_CERT-2026-001 (PDF: 129 KB, PNG: 213 KB)
+2026-09-16 10:44:54,262 [INFO] [mail_merge.py:567] [SUCCESS] Row 2: Bartholomew Montgomery-Hetherington III -> Certificate_Bartholomew_Montgomery-Hetherington_III_CERT-2026-002 (PDF: 129 KB, PNG: 221 KB)
+2026-09-16 10:44:54,533 [INFO] [mail_merge.py:567] [SUCCESS] Row 3: Dr. Sofia Elena Rodriguez-Hernandez -> Certificate_Dr._Sofia_Elena_Rodriguez-Hernandez_CERT-2026-003 (PDF: 129 KB, PNG: 226 KB)
+2026-09-16 10:44:54,885 [INFO] [mail_merge.py:567] [SUCCESS] Row 4: Chen Wei -> Certificate_Chen_Wei_CERT-2026-004 (PDF: 129 KB, PNG: 203 KB)
+2026-09-16 10:44:55,173 [INFO] [mail_merge.py:567] [SUCCESS] Row 5: Marcus Vance -> Certificate_Marcus_Vance_CERT-2026-005 (PDF: 129 KB, PNG: 213 KB)
+2026-09-16 10:44:55,499 [INFO] [mail_merge.py:567] [SUCCESS] Row 6: Aisha Al-Mansoor -> Certificate_Aisha_Al-Mansoor_CERT-2026-006 (PDF: 129 KB, PNG: 214 KB)
+2026-09-16 10:44:55,499 [WARNING] [mail_merge.py:528] [SKIPPED] Row 7: Missing required field 'Course Name' / 'Course'.
+2026-09-16 10:44:55,500 [WARNING] [mail_merge.py:528] [SKIPPED] Row 8: Missing required field 'Full Name' / 'Name'.
+2026-09-16 10:44:55,501 [INFO] [mail_merge.py:599] =================================================================
+2026-09-16 10:44:55,501 [INFO] [mail_merge.py:600] BATCH GENERATION SUMMARY
+2026-09-16 10:44:55,501 [INFO] [mail_merge.py:601]   Total Ingested Records : 8
+2026-09-16 10:44:55,501 [INFO] [mail_merge.py:602]   Successfully Generated  : 6
+2026-09-16 10:44:55,501 [INFO] [mail_merge.py:603]   Skipped (Invalid/Blank): 2
+2026-09-16 10:44:55,501 [INFO] [mail_merge.py:604]   Failed (Exceptions)    : 0
+2026-09-16 10:44:55,501 [INFO] [mail_merge.py:605]   Elapsed Processing Time : 1.74s
+2026-09-16 10:44:55,501 [INFO] [mail_merge.py:606]   Manifest Output Path   : output_certificates\manifest.json
+2026-09-16 10:44:55,501 [INFO] [mail_merge.py:607] =================================================================
+2026-09-16 10:45:45,138 [INFO] [mail_merge.py:514] Starting Certificate Batch Pipeline (Dry Run: True)
+2026-09-16 10:45:45,138 [INFO] [mail_merge.py:515] Export Format: BOTH (PNG DPI: 300)
+2026-09-16 10:45:45,138 [INFO] [mail_merge.py:516] Output Directory: C:\Users\Hp\Desktop\Agent1\output_certificates
+2026-09-16 10:45:45,622 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.xlsx'.
+2026-09-16 10:45:45,623 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 1: 'Alice Morgan' -> 'Advanced Data Engineering & Pipeline Design'
+2026-09-16 10:45:45,623 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 2: 'Bartholomew Montgomery-Hetherington III' -> 'Executive Machine Learning & AI Strategy'
+2026-09-16 10:45:45,623 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 3: 'Dr. Sofia Elena Rodriguez-Hernandez' -> 'Cloud Architecture & Security Governance'
+2026-09-16 10:45:45,624 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 4: 'Chen Wei' -> 'Full-Stack Automation with Python'
+2026-09-16 10:45:45,624 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 5: 'Marcus Vance' -> 'DevOps & Continuous Integration Masterclass'
+2026-09-16 10:45:45,624 [INFO] [mail_merge.py:533] [DRY RUN VALID] Row 6: 'Aisha Al-Mansoor' -> 'Cybersecurity Defense & Incident Response'
+2026-09-16 10:45:45,624 [WARNING] [mail_merge.py:528] [SKIPPED] Row 7: Missing required field 'Course Name' / 'Course'.
+2026-09-16 10:45:45,624 [WARNING] [mail_merge.py:528] [SKIPPED] Row 8: Missing required field 'Full Name' / 'Name'.
+2026-09-16 10:45:45,624 [INFO] [mail_merge.py:599] =================================================================
+2026-09-16 10:45:45,625 [INFO] [mail_merge.py:600] BATCH GENERATION SUMMARY
+2026-09-16 10:45:45,625 [INFO] [mail_merge.py:601]   Total Ingested Records : 8
+2026-09-16 10:45:45,625 [INFO] [mail_merge.py:602]   Successfully Generated  : 6
+2026-09-16 10:45:45,625 [INFO] [mail_merge.py:603]   Skipped (Invalid/Blank): 2
+2026-09-16 10:45:45,625 [INFO] [mail_merge.py:604]   Failed (Exceptions)    : 0
+2026-09-16 10:45:45,625 [INFO] [mail_merge.py:605]   Elapsed Processing Time : 0.49s
+2026-09-16 10:45:45,625 [INFO] [mail_merge.py:606]   Manifest Output Path   : output_certificates\manifest.json
+2026-09-16 10:45:45,625 [INFO] [mail_merge.py:607] =================================================================
+2026-09-16 10:48:59,579 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 10:50:06,260 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 10:50:16,550 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 10:50:57,180 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 10:51:12,202 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 10:52:32,359 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.xlsx'.
+2026-09-16 10:52:44,271 [INFO] [mail_merge.py:514] Starting Certificate Batch Pipeline (Dry Run: False)
+2026-09-16 10:52:44,272 [INFO] [mail_merge.py:515] Export Format: BOTH (PNG DPI: 300)
+2026-09-16 10:52:44,272 [INFO] [mail_merge.py:516] Output Directory: C:\Users\Hp\Desktop\Agent1\output_certificates
+2026-09-16 10:52:44,274 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 10:52:44,525 [INFO] [mail_merge.py:567] [SUCCESS] Row 1: Alice Morgan -> Certificate_Alice_Morgan_CERT-2026-001 (PDF: 129 KB, PNG: 213 KB)
+2026-09-16 10:52:44,758 [INFO] [mail_merge.py:567] [SUCCESS] Row 2: Bartholomew Montgomery-Hetherington III -> Certificate_Bartholomew_Montgomery-Hetherington_III_CERT-2026-002 (PDF: 129 KB, PNG: 221 KB)
+2026-09-16 10:52:45,015 [INFO] [mail_merge.py:567] [SUCCESS] Row 3: Dr. Sofia Elena Rodriguez-Hernandez -> Certificate_Dr._Sofia_Elena_Rodriguez-Hernandez_CERT-2026-003 (PDF: 129 KB, PNG: 226 KB)
+2026-09-16 10:52:45,279 [INFO] [mail_merge.py:567] [SUCCESS] Row 4: Chen Wei -> Certificate_Chen_Wei_CERT-2026-004 (PDF: 129 KB, PNG: 203 KB)
+2026-09-16 10:52:45,579 [INFO] [mail_merge.py:567] [SUCCESS] Row 5: Marcus Vance -> Certificate_Marcus_Vance_CERT-2026-005 (PDF: 129 KB, PNG: 213 KB)
+2026-09-16 10:52:45,838 [INFO] [mail_merge.py:567] [SUCCESS] Row 6: Aisha Al-Mansoor -> Certificate_Aisha_Al-Mansoor_CERT-2026-006 (PDF: 129 KB, PNG: 214 KB)
+2026-09-16 10:52:45,839 [WARNING] [mail_merge.py:528] [SKIPPED] Row 7: Missing required field 'Course Name' / 'Course'.
+2026-09-16 10:52:45,839 [WARNING] [mail_merge.py:528] [SKIPPED] Row 8: Missing required field 'Full Name' / 'Name'.
+2026-09-16 10:52:45,840 [INFO] [mail_merge.py:599] =================================================================
+2026-09-16 10:52:45,840 [INFO] [mail_merge.py:600] BATCH GENERATION SUMMARY
+2026-09-16 10:52:45,840 [INFO] [mail_merge.py:601]   Total Ingested Records : 8
+2026-09-16 10:52:45,840 [INFO] [mail_merge.py:602]   Successfully Generated  : 6
+2026-09-16 10:52:45,841 [INFO] [mail_merge.py:603]   Skipped (Invalid/Blank): 2
+2026-09-16 10:52:45,841 [INFO] [mail_merge.py:604]   Failed (Exceptions)    : 0
+2026-09-16 10:52:45,841 [INFO] [mail_merge.py:605]   Elapsed Processing Time : 1.57s
+2026-09-16 10:52:45,841 [INFO] [mail_merge.py:606]   Manifest Output Path   : output_certificates\manifest.json
+2026-09-16 10:52:45,841 [INFO] [mail_merge.py:607] =================================================================
+2026-09-16 11:02:36,760 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 11:45:46,051 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.
+2026-09-16 13:08:41,022 [INFO] [mail_merge.py:443] Loaded 8 records from 'recipients.csv'.

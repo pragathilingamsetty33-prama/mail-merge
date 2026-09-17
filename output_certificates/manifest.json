@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-09-16T13:08:42.558783",
+  "total_records": 8,
+  "successful": 6,
+  "skipped": 2,
+  "failed": 0,
+  "elapsed_seconds": 1.53,
+  "certificates": [
+    {
+      "row": 1,
+      "name": "Alice Morgan",
+      "course": "Advanced Data Engineering & Pipeline Design",
+      "cert_id": "CERT-2026-001",
+      "date": "2026-08-15",
+      "status": "generated",
+      "files": {
+        "pdf": "Certificate_Alice_Morgan_CERT-2026-001.pdf",
+        "png": "Certificate_Alice_Morgan_CERT-2026-001.png"
+      }
+    },
+    {
+      "row": 2,
+      "name": "Bartholomew Montgomery-Hetherington III",
+      "course": "Executive Machine Learning & AI Strategy",
+      "cert_id": "CERT-2026-002",
+      "date": "2026-08-18",
+      "status": "generated",
+      "files": {
+        "pdf": "Certificate_Bartholomew_Montgomery-Hetherington_III_CERT-2026-002.pdf",
+        "png": "Certificate_Bartholomew_Montgomery-Hetherington_III_CERT-2026-002.png"
+      }
+    },
+    {
+      "row": 3,
+      "name": "Dr. Sofia Elena Rodriguez-Hernandez",
+      "course": "Cloud Architecture & Security Governance",
+      "cert_id": "CERT-2026-003",
+      "date": "2026-08-20",
+      "status": "generated",
+      "files": {
+        "pdf": "Certificate_Dr._Sofia_Elena_Rodriguez-Hernandez_CERT-2026-003.pdf",
+        "png": "Certificate_Dr._Sofia_Elena_Rodriguez-Hernandez_CERT-2026-003.png"
+      }
+    },
+    {
+      "row": 4,
+      "name": "Chen Wei",
+      "course": "Full-Stack Automation with Python",
+      "cert_id": "CERT-2026-004",
+      "date": "2026-08-22",
+      "status": "generated",
+      "files": {
+        "pdf": "Certificate_Chen_Wei_CERT-2026-004.pdf",
+        "png": "Certificate_Chen_Wei_CERT-2026-004.png"
+      }
+    },
+    {
+      "row": 5,
+      "name": "Marcus Vance",
+      "course": "DevOps & Continuous Integration Masterclass",
+      "cert_id": "CERT-2026-005",
+      "date": "2026-09-01",
+      "status": "generated",
+      "files": {
+        "pdf": "Certificate_Marcus_Vance_CERT-2026-005.pdf",
+        "png": "Certificate_Marcus_Vance_CERT-2026-005.png"
+      }
+    },
+    {
+      "row": 6,
+      "name": "Aisha Al-Mansoor",
+      "course": "Cybersecurity Defense & Incident Response",
+      "cert_id": "CERT-2026-006",
+      "date": "2026-09-05",
+      "status": "generated",
+      "files": {
+        "pdf": "Certificate_Aisha_Al-Mansoor_CERT-2026-006.pdf",
+        "png": "Certificate_Aisha_Al-Mansoor_CERT-2026-006.png"
+      }
+    }
+  ]
+}

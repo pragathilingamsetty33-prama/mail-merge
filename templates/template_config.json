@@ -1,0 +1,57 @@
+﻿{
+  "page": {
+    "format": "A4",
+    "orientation": "landscape",
+    "width_pt": 841.89,
+    "height_pt": 595.28,
+    "margin_pt": 36
+  },
+  "theme": {
+    "background_color": "#FCFDFD",
+    "primary_color": "#0B192C",
+    "accent_gold": "#C59B27",
+    "light_gold": "#E8D595",
+    "text_dark": "#1E293B",
+    "text_muted": "#64748B",
+    "border_outer_width": 4,
+    "border_inner_width": 1.5,
+    "border_gap": 8
+  },
+  "branding": {
+    "badge_text": "ACCREDITED EXCELLENCE",
+    "organization": "INTERNATIONAL INSTITUTE OF TECHNOLOGY & DATA SCIENCES",
+    "certificate_title": "CERTIFICATE OF ACHIEVEMENT",
+    "presentation_line": "THIS IS PROUDLY PRESENTED TO",
+    "completion_line": "for successfully fulfilling all rigorous academic requirements and demonstrating mastery in",
+    "verification_prefix": "Official Credential ID: "
+  },
+  "placeholders": {
+    "name": "{{name}}",
+    "course": "{{course}}",
+    "date": "{{date}}",
+    "cert_id": "{{cert_id}}",
+    "instructor": "{{instructor}}"
+  },
+  "signatures": {
+    "left": {
+      "signatory_name": "Dr. Aris Thorne",
+      "signatory_title": "Chief Academic Officer"
+    },
+    "right": {
+      "signatory_name": "Prof. H. R. Vance",
+      "signatory_title": "Director of Education"
+    }
+  },
+  "text_scaling": {
+    "name_max_pt": 34,
+    "name_min_pt": 16,
+    "course_max_pt": 22,
+    "course_min_pt": 14,
+    "max_text_width_ratio": 0.76
+  },
+  "render": {
+    "generate_pdf": true,
+    "generate_png": true,
+    "png_dpi": 300
+  }
+}
